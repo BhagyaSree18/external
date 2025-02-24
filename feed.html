@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form with Checkboxes</title>
+</head>
+<body>
+
+    <h2>Tell Us What You Liked</h2>
+
+    <form action="submit_feedback.php" method="post">
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+
+        What did you like about our service?<br>
+        <input type="checkbox" name="likes" value="Customer Support"> Customer Support<br>
+        <input type="checkbox" name="likes" value="Product Quality"> Product Quality<br>
+        <input type="checkbox" name="likes" value="Delivery Speed"> Delivery Speed<br>
+        <input type="checkbox" name="likes" value="Pricing"> Pricing<br><br>
+
+        Comments:<br>
+        <textarea name="comments" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+s
